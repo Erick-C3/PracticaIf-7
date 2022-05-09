@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--
+        al usuario le voy a pedir en la pagina:
+            - el tipo de producto
+            - el precio del producto
+
+        la pagina tiene que responder/mostrar:
+            - valor final de la compra con descuento
+    -->
+    <input id="tipo_producto" type="text" placeholder="carne, lacteo o enlatado">
+    <input id="precio_producto" type="number" placeholder="precio del producto">
+    <button onclick="calcularPrecioFinal()">Ver precio final</button>
+    <div id="precio_final">
+        <h5>Precio final del producto: $x</h5>
+    </div>
+
+    <script src="descuentos.js"></script>
+</body>
+</html>
